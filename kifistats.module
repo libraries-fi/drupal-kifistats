@@ -1,0 +1,13 @@
+<?php
+
+function kifistats_theme() {
+  return [
+    'kifistats_statistics' => [
+      'template' => 'statistics',
+      'variables' => [
+        'form' => NULL,
+        'result' => NULL,
+      ]
+    ]
+  ];
+}

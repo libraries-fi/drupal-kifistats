@@ -1,0 +1,14 @@
+kifistats.index:
+  path: '/admin/system/statistics'
+  defaults:
+    _controller: 'Drupal\kifistats\Controller\StatisticsController::index'
+    _title: 'Statistics'
+  requirements:
+    _permission: 'administer site configuration'
+kifistats.view:
+  path: '/admin/system/statistics/{statistics_id}'
+  defaults:
+    _title_callback: 'Drupal\kifistats\Controller\StatisticsController::title'
+    _controller: 'Drupal\kifistats\Controller\StatisticsController::view'
+  requirements:
+    _permission: 'administer site configuration'

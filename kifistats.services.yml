@@ -1,0 +1,5 @@
+services:
+  kifistats.statistics_manager:
+    class: 'Drupal\kifistats\StatisticsManager'
+    tags:
+      - { name: service_collector, tag: kifistats.engine, call: addEngine }

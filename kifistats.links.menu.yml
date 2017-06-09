@@ -1,0 +1,5 @@
+kifistats.index:
+  title: 'Statistics'
+  description: 'View system statistics'
+  route_name: kifistats.index
+  parent: system.admin_config_system
