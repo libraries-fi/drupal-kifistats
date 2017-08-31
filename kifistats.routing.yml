@@ -11,4 +11,4 @@ kifistats.view:
     _title_callback: 'Drupal\kifistats\Controller\StatisticsController::title'
     _controller: 'Drupal\kifistats\Controller\StatisticsController::view'
   requirements:
-    _permission: 'administer site configuration'
+    _permission: 'access statistics'
