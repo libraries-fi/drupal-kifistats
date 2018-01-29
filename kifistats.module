@@ -7,6 +7,7 @@ function kifistats_theme() {
       'variables' => [
         'form' => NULL,
         'result' => NULL,
+        'description' => NULL,
       ]
     ]
   ];

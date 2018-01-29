@@ -1,4 +1,9 @@
 <div class="panel">
   {{ form }}
 </div>
+{% if description %}
+  <div class="description">
+    {{ description }}
+  </div>
+{% endif %}
 {{ result }}
