@@ -1,0 +1,6 @@
+{
+  "name": "libraries-fi/kifistats",
+  "description": "Simple statistics framework.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+"
+}
